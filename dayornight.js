@@ -6,7 +6,7 @@ function update() {
   console.log(date);
   let morning = 6;
   let noon = 12;
-  let night = 7;
+  let night = 19;
   if (date >= morning && date < noon) {
     h1.classList.remove("night");
     h1.classList.add("morning");
